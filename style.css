@@ -1,0 +1,204 @@
+body{
+    text-align:center;
+    margin:0;
+    font-family: 'Merriweather', serif;
+    /* font-size:2em; */
+    color:#40514E;
+}
+span{
+    text-decoration:underline;
+}
+
+.top-container{
+    background-color:#EAF6F6;
+    /* height:100vh; */
+    position:relative;
+    padding:50px 50px 0px 50px
+    
+}
+
+h1{
+    /* font-size: 100% --> 16px; */
+    /*1em = 16px
+    100% = 16px*/
+    /* font-size:562.5%; */
+    /*font-size in percentage and em depends on the parent of the element*/
+    font-size:5.625rem;
+    width:42%;
+    margin:0 auto;
+    margin-top:100px;
+    font-family: 'Sacramento', cursive;
+    color:  #66BFBF;
+    line-height: 2;
+}
+
+h2{
+    font-family: 'Merriweather', serif; 
+    font-size:2.5rem;
+    color: #66BFBF;
+    font-weight:normal;
+}
+
+h3{
+    font-family: 'Merriweather', serif;
+    color:#11999E;
+}
+
+p{
+    font-size:20px;
+    
+}
+
+#mount{
+  /* margin:100px; */
+  width:50%;
+  /* position:relative;
+  bottom:-52px; */
+}
+
+.upper-cloud{
+    position:absolute;
+    left:1066px;
+    top:72px;
+    
+}
+.bottom-cloud{
+    position:absolute;
+    top: 476px;
+    left: 298px;
+}
+
+.web-dev-image{
+    /* height:30%; */
+    width:25%;
+    /*float should be only used to wrap the text around any element like thw  way we are doing here.*/
+    float:left;
+    margin-right:30px;
+
+}
+
+.dsa-image{
+    /* height:30%; */
+    width:25%;
+    float:right;
+    margin-left:30px;
+}
+
+.profile-photo{
+    height:17%;
+    width:17%;
+    margin-top:80px;
+}
+
+.heading-bottom{
+    margin-left: 7px;
+}
+.footer-link{
+    color:#11999E;
+}
+
+.skill-row{
+    text-align:left;
+    line-height:2;
+    width:50%;
+    margin:100px auto;
+}
+
+hr{
+    /* border-top:10px dotted #c0c9c9; */
+    border-top: 7px dotted rgb(166 172 172);
+    width:4%; 
+    margin:50px auto;
+}
+
+.bottom-container{
+    background-color:#66BFBF;
+    padding:30px;
+
+}
+
+.footer-link{
+    text-decoration: none;
+    margin:41px;
+    /* color:#2d969a; */
+    color:#ffffff;
+    font-size:20px;
+}
+
+.footer-link:hover{
+    /* color:#ffffff; */
+    /* color:#2487c9; */
+    text-decoration:underline;
+}
+
+.bottom-container p{
+    margin-top:42px;
+    color:#EAF6F6;
+    font-size:15px;
+    
+}
+
+.contact-me{
+   padding:40px;
+}
+
+.contact-me h2{
+    margin:42px;
+}
+
+.contact-me p{
+    margin:56px auto;
+    width:60%;
+}
+
+/* .btn{
+    border:1px solid #11999E ;
+    border-radius:12px;
+    background:#3498db;
+    text-decoration:none;
+    color:white;
+    padding:10px 20px 10px 20px;
+    font-family:Arial;
+} */
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 11px;
+    /* font-family: Arial; */
+    font-family:'Montserrat',sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+/* .btn:hover{
+    background: #3cb0fd;
+} */
+.skills .skill-row h3{
+    color:#11999E;
+}
+
+.intro
+{
+    width:40%;
+    margin:auto;
+    line-height:2;
+}
+
